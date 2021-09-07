@@ -13,8 +13,7 @@ const users = [
         resolve(updatedUsers);
     })
     return promise;
-    // callback(updatedUsers);
-  };
+   };
   
   const logger = updatedUsers => console.table(updatedUsers);
   
